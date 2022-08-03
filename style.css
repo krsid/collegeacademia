@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+
+body{
+  margin: 0;
+}
+
+nav{
+  /* background-color: black; */
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.nav-text{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #377754;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.nav-login-and-signup{
+  display: flex;
+}
+
+.nav-login-and-signup a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-login{
+     
+}
+
+.nav-signup{
+
+}
+.nav-button{
+      background-color: black;
+      color: white;
+      margin: 0px 10px;
+      padding: 6px 15px;
+      border-radius: 20px;
+      
+}
+
+.nav-button:hover{
+  transform: scale(1) translateY(-2px);
+  color: skyblue;
+}
+
+.header-main-content{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 60px;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 6), 0 6px 20px 0 rgba(0, 0, 0, 9);
+}
+
+.header-main-content a{
+  text-decoration: none;
+}
+
+.header-text-area span{
+  font-size: 68px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #5BCCF6;
+  padding-top: 60px;
+}
+
+.header-text-area{
+    
+    font-weight: bold;
+    font-size: 25px;
+    margin: 70px 10px;    
+}
+
+.header-text-area p{
+  font-family:'Josefin Sans', sans-serif;
+  color: #fff;
+}
+
+
+
+.header-button{
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 90px;
+    margin: 7px 14px;
+}
+
+.header-button:hover{
+  letter-spacing: 2px ;
+}
+
+.footer_area{
+  align-items: center;
+}
+
+
+
+.social_links li {
+    
+}
+
+.social_items{
+}
+
+
+.quick_links ul{
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  /* font-family: 'Josefin Sans', sans-serif ; */
+  padding: 15px 20px;
+  /* text-align: center; */
+  margin: 50px 448px;
+  align-items: center;
+}
+
+.quick_links li{
+  padding: 0 10px;
+}
+
+
+.quick_items a{
+   text-decoration: none;
+   text-transform: uppercase;
+   
+}
+
+.copyright_area{
+  font-weight: bold;
+  font-size: 20px;
+   padding: 5px 109px;
+    width: 851px;
+    margin: -65px 267px;
+}
+
+
+.header-form-section{
+
+    padding: 30px;
+    height: 360px;
+    background: #377754;
+    border-radius: 20px;
+    margin: 100px;
+}
+
+.course-area{
+ margin: 20px;
+ font-weight: bold;
+  text-transform: uppercase;
+}
+
+.state-area{
+  margin: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.city-area{
+  margin: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.search-button{
+
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px 100px;
+}
+
+.form-section{
+  /* background: black; */
+  border-radius: 20px;
+}
+
+.login-signup-form{
+
+  padding: 30px;
+  height: 465px;
+  background: #377754;
+  border-radius: 20px;
+  margin: 36px 415px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 6), 0 6px 20px 0 rgba(0, 0, 0, 9);
+}
+
+.form-heading span{
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.username-area{
+
+  margin: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.email-area{
+
+  margin: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.password-area{
+  margin: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.buttons-area{
+ 
+  margin: 5px 126px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.buttons-area a {
+  text-decoration: none;
+}
+
+.form-login{
+   margin: 10px;
+}
+
+.form-bottom-area{
+  font-weight: bold;
+}
+
+.form-bottom-area a{
+  text-decoration: none;
+  color: purple;
+}
+
+/* login page footer */
+
+.footer_login{
+  margin: 70px 319px;
+  padding: 121px 6px;
+}
+
+.quick_link ul{
+
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  /* font-family: 'Josefin Sans', sans-serif ; */
+  padding: 15px 20px;
+  /* text-align: center; */
+  margin: 50px 448px;
+  align-items: center;
+
+}
+
+.quick_link li{
+  padding: 0 10px;
+}
+
+
+.quick_item a{
+   text-decoration: none;
+   text-transform: uppercase;
+   
+}
+
+.copyright{
+  font-weight: bold;
+  font-size: 20px;
+   padding: 5px 109px;
+    width: 851px;
+    margin: -65px 267px;
+}
