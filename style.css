@@ -196,7 +196,7 @@ nav{
   background: #377754;
   border-radius: 20px;
   margin: 36px 415px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 6), 0 6px 20px 0 rgba(0, 0, 0, 9);
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 6), 0 6px 10px 0 rgba(0, 0, 0, 9);
 }
 
 .form-heading span{
